@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Japanese Word Match</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pencil">えんぴつ</string>
+    <string name="umbrella"></string>
+    <string name="bag"></string>
+    <string name="shoes"></string>
+    <string name="wallet"></string>
+    <string name="jeans"></string>
+    <string name="dictionary"></string>
+    <string name="bicycle"></string>
+    <string name="newspaper"></string>
+    <string name="tshirt"></string>
+    <string name="watch_clock"></string>
+</resources>

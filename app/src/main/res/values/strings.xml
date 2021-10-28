@@ -4,14 +4,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="pencil">えんぴつ</string>
-    <string name="umbrella"></string>
-    <string name="bag"></string>
-    <string name="shoes"></string>
-    <string name="wallet"></string>
-    <string name="jeans"></string>
-    <string name="dictionary"></string>
-    <string name="bicycle"></string>
-    <string name="newspaper"></string>
-    <string name="tshirt"></string>
-    <string name="watch_clock"></string>
+    <string name="umbrella">かさ</string>
+    <string name="bag">かばん</string>
+    <string name="shoes">くつ</string>
+    <string name="wallet">さいふ</string>
+    <string name="jeans">ジーンズ</string>
+    <string name="dictionary">じしょ</string>
+    <string name="bicycle">じてんしゃ</string>
+    <string name="newspaper">しんぶん</string>
+    <string name="tshirt">T シャツ</string>
+    <string name="watch_clock">とけい</string>
 </resources>

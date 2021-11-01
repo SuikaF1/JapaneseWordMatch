@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.suikaf1.android.japanesewordmatch.viewmodel.WordMatchViewmodel" />
+            type="com.suikaf1.android.japanesewordmatch.viewmodel.WordMatchViewModel" />
     </data>
 
     <LinearLayout
@@ -20,6 +20,28 @@
             android:text="@{viewmodel.score.toString()}"
             android:textSize="32sp"
             tools:text="Hello"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add 2"
+            android:onClick="@{() -> viewmodel.updateScore()}"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            android:text="@{viewmodel.word}"
+            tools:text="@string/bicycle"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next word"
+            android:onClick="@{() -> viewmodel.getNextWord()}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="@{viewmodel.half}"/>
     </LinearLayout>
 
 </layout>

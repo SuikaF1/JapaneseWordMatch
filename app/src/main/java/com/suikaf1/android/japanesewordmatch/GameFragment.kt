@@ -4,15 +4,16 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.suikaf1.android.japanesewordmatch.databinding.FragmentWordMatchBinding
-import com.suikaf1.android.japanesewordmatch.viewmodel.WordMatchViewmodel
+import com.suikaf1.android.japanesewordmatch.viewmodel.WordMatchViewModel
 
 
 class GameFragment : Fragment() {
 
-    private val viewModel: WordMatchViewmodel by viewModels()
+    private val viewModel: WordMatchViewModel by viewModels()
     lateinit var binding: FragmentWordMatchBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +24,7 @@ class GameFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentWordMatchBinding.inflate(layoutInflater)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_word_match, container, false)
         return binding.root
     }
 
